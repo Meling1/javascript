@@ -10,4 +10,4 @@ var baaa = 'b' + 'a' + +'a' + 'a';
 console.log(x);
 console.log(baaa);
 
-console.log(w);
+console.log(typeof w);
