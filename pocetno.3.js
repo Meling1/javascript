@@ -1,0 +1,7 @@
+var x = 0;
+
+/// prvo ispisi vrijednost pa onda povecaj varijablu za 1
+console.log(x++);
+
+/// prvo povecaj varijablu za 1 pa onda ispisi vrijednost
+console.log(++x);
