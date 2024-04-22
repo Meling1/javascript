@@ -20,3 +20,13 @@ else {
     x = 5;
 }
 console.log('x= ' + x);
+
+/* Napisite petlju koja ce prolaziti kroz brojeve od 1 do 20. 
+za svaku ce iteraciju provjeriti je li trenutni broj paran ili neparan, i console.log-ati rezultat (npr. "broj 2 je paran"). */
+
+for( x= 1; x < 20; x++) {
+    if (x % 2 == 0 ) {
+    console.log('Broj ' + x + ' je paran');
+    }
+}
+
