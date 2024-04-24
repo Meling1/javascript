@@ -150,3 +150,20 @@ for (var element of elementi){
 
 } console.log(ispisi);
  
+//ispisi najduze ime:
+
+var namesLong= ['John', 'Jane', 'Bob', ,'Mike', 'Leonardo', 'Donatello'];
+var duljina = 0;
+var najDuzeIme ='';
+
+for (var ime of namesLong){
+    if (typeof ime !== 'string') continue;
+
+    var duljinaImena = ime.length;
+    if (duljinaImena > duljina){
+        duljina=duljinaImena;
+        najDuzeIme=ime;
+    }
+}
+console.log('duljina: ' + duljina);
+console.log('najduze ime je: ' + najDuzeIme);
